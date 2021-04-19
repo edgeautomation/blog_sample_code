@@ -1,0 +1,28 @@
+{
+  "capabilities": [
+    {
+      "browserName": "iPad Air 2",
+      "deviceName": "00B8RT-POTY456-OIUNBT6-LKINGFT0-OJHYTRE0P",
+      "platformName": "iOS",
+      "platform": "MAC",
+      "version": "13.3",
+      "maxInstance": 1
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 5000,
+    "registerCycle": 5000,
+    "nodePulling": 120,
+    "timeout": 60000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://0.0.0.0:7717/wd/hub",
+    "hub": "10.117.189.171/:2222/grid/register",
+    "maxSession": 1,
+    "port": 7717,
+    "host": "0.0.0.0",
+    "register": true,
+    "hubPort": 2222,
+    "hubHost": "10.117.189.171",
+    "role": "node"
+  }
+}
