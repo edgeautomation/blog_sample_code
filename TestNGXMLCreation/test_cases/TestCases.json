@@ -1,0 +1,42 @@
+[
+  {
+    "testcase_id" : "Test_Case_01",
+    "scenario" : "Gmail Registration",
+    "description": "Register to Gmail",
+    "classes" : "app_test.NavigateGmail,app_test.RegisterGmail",
+    "data" : {
+      "url": "https://www.gmail.com"
+    }
+  },
+  {
+    "testcase_id" : "Test_Case_02",
+    "scenario" : "Gmail Login",
+    "description": "Login to Gmail",
+    "classes" : "app_test.NavigateGmail,app_test.LoginGmail",
+    "data" : {
+      "url": "https://www.gmail.com",
+      "user_name": "admin",
+      "password": "admin"
+    }
+  },
+  {
+    "testcase_id" : "Test_Case_03",
+    "scenario" : "Outlook Registration",
+    "description": "Register to Outlook",
+    "classes" : "app_test.NavigateOutlook,app_test.RegisterOutlook",
+    "data" : {
+      "url": "https://www.outlook.com"
+    }
+  },
+  {
+    "testcase_id" : "Test_Case_04",
+    "scenario" : "Outlook Login",
+    "description": "Login to Outlook",
+    "classes" : "app_test.NavigateOutlook,app_test.LoginOutlook",
+    "data" : {
+      "url": "https://www.outlook.com",
+      "user_name": "admin",
+      "password": "admin"
+    }
+  }
+]
