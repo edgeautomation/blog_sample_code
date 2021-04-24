@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Registration" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="env" value="qa"/>
+  <test thread-count="1" name="Test_Case_01" parallel="tests">
+    <parameter name="Description" value="Register to Gmail"/>
+    <parameter name="Scenario" value="Gmail Registration"/>
+    <classes>
+      <class name="app_test.NavigateGmail"/>
+      <class name="app_test.RegisterGmail"/>
+    </classes>
+  </test> <!-- Test_Case_01 -->
+  <test thread-count="1" name="Test_Case_03" parallel="tests">
+    <parameter name="Description" value="Register to Outlook"/>
+    <parameter name="Scenario" value="Outlook Registration"/>
+    <classes>
+      <class name="app_test.NavigateOutlook"/>
+      <class name="app_test.RegisterOutlook"/>
+    </classes>
+  </test> <!-- Test_Case_03 -->
+</suite> <!-- Registration -->

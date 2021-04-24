@@ -1,0 +1,10 @@
+<suite name="XMLGenerator Suite">
+    <parameter name="env" value="qa"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="suite_name" value="Registration"/>
+    <test name="XMLGenerator Test">
+        <classes>
+            <class name="xml_generation.XMLGeneratorTestNG"/>
+        </classes>
+    </test>
+</suite>
