@@ -8,9 +8,8 @@ public class TestReader {
 
     public static void main(String[] args) {
         CSV_Reader csv_reader = new CSV_Reader();
-        csv_reader.setPATH("csv/SampleCSV.csv");
         List<Map<String,String>> filterData = csv_reader
-                .given()
+                .given("csv/SampleCSV.csv")
                 .when("Year","2017")
                 .and("Industry_aggregation_NZSIOC","Level 3")
                 .and("Industry_code_NZSIOC","CC71")
@@ -24,9 +23,8 @@ public class TestReader {
 
 
 
-        csv_reader.setPATH("csv/SampleCSV2.csv");
         List<Map<String,String>> filterData2 = csv_reader
-                .given()
+                .given("csv/SampleCSV2.csv")
                 .when("Variable","_03_Current and Capital Expenditure: Capital Expenditure: Total")
                 .and("Breakdown","Published_Industry")
                 .and("Breakdown_category","03_Beverage and tobacco manufacturing")
@@ -48,7 +46,7 @@ public class TestReader {
                 .add("03_Beverage and tobacco manufacturing");
 
         List<Map<String,String>> filterData3 = csv_reader
-                .given()
+                .given("csv/SampleCSV2.csv")
                 .when("Variable","_03_Current and Capital Expenditure: Capital Expenditure: Total")
                 .and("Breakdown","Published_Industry")
                 .and("Breakdown_category",breakdown_category)

@@ -1,0 +1,65 @@
+{
+  "infra": {
+    "address": {
+      "street": "123 st, Main Street",
+      "city": "Kolkata, West Bengal",
+      "land_mark": "College Street",
+      "pincode": "700001",
+      "phone": "(033) 2456 2365"
+    },
+    "courses": [
+      {
+        "course_name": "Java",
+        "faculty": "John",
+        "duration": "30 days",
+        "start_date": "01-June-2021",
+        "fees": 15000
+      },
+      {
+        "course_name": "JavaScript",
+        "faculty": "Meril",
+        "duration": "25 days",
+        "start_date": "07-June-2021",
+        "fees": 17000
+      },
+      {
+        "course_name": "Python",
+        "faculty": "Bob",
+        "duration": "35 days",
+        "start_date": "11-July-2021",
+        "fees": 21000
+      },
+      {
+        "course_name": "AWS",
+        "faculty": "Jenifer",
+        "duration": "40 days",
+        "start_date": "15-July-2021",
+        "fees": 21000,
+        "certification_fees": 25000
+      },
+      {
+        "course_name": "AWS",
+        "faculty": "Jenifer",
+        "duration": "45 days",
+        "start_date": "15-July-2021",
+        "fees": 19000
+      },
+      {
+        "course_name": "AZURE",
+        "faculty": "July",
+        "duration": "40 days",
+        "start_date": "17-July-2021",
+        "fees": 23000,
+        "certification_fees": 21000
+      },
+      {
+        "course_name": "AZURE",
+        "faculty": "July",
+        "duration": "40 days",
+        "start_date": "23-July-2021",
+        "fees": 20000
+      }
+    ]
+  },
+  "expensive": 20000
+}

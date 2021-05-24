@@ -1,0 +1,312 @@
+{
+  "shop-catagory": [
+    {
+      "catagory": "Fashion",
+      "sub-catagories": [
+        {
+          "sub-catagory": "Western Fashion",
+          "items": [
+            {
+              "item": "TShirt",
+              "item_details": [
+                {
+                  "item_id": "ID_001",
+                  "brand": "US POLO",
+                  "price": "$7.3",
+                  "size": "40",
+                  "color": "blue",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 001",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_002",
+                  "brand": "Puna",
+                  "price": "$6.5",
+                  "size": "38",
+                  "color": "red",
+                  "delivery_date": "23-May-2021",
+                  "seller": "Seller 002",
+                  "address": {
+                    "address1": "Lane 27, Street 127",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            },
+            {
+              "item": "Tops",
+              "item_details": [
+                {
+                  "item_id": "ID_003",
+                  "brand": "Van Heusen",
+                  "price": "$15",
+                  "size": "34",
+                  "color": "white",
+                  "delivery_date": "23-May-2021",
+                  "seller": "Seller 003",
+                  "address": {
+                    "address1": "Lane 21, Street 129",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_004",
+                  "brand": "Lee Cooper",
+                  "price": "$11",
+                  "size": "32",
+                  "color": "Green",
+                  "delivery_date": "20-May-2021",
+                  "seller": "Seller 004",
+                  "address": {
+                    "address1": "Lane 19, Street 132",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sub-catagory": "Indian Fashion",
+          "items": [
+            {
+              "item": "Saree",
+              "item_details": [
+                {
+                  "item_id": "ID_005",
+                  "brand": "ANNI DESIGNER",
+                  "price": "$15",
+                  "color": "blue",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 005",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_006",
+                  "tshirt_brand": "Yashika",
+                  "price": "$17",
+                  "color": "red",
+                  "delivery_date": "23-May-2021",
+                  "seller": "Seller 002",
+                  "address": {
+                    "address1": "Lane 27, Street 127",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            },
+            {
+              "item": "Dhoti",
+              "item_details": [
+                {
+                  "item_id": "ID_007",
+                  "top_brand": "Royal Kurta",
+                  "price": "$5",
+                  "size": "2.20 Meters",
+                  "color": "White",
+                  "delivery_date": "23-May-2021",
+                  "seller": "Seller 003",
+                  "address": {
+                    "address1": "Lane 21, Street 129",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_008",
+                  "top_brand": "Cotton Colors",
+                  "price": "$7",
+                  "size": "2.20 Meters",
+                  "color": "Green",
+                  "delivery_date": "20-May-2021",
+                  "seller": "Seller 004",
+                  "address": {
+                    "address1": "Lane 19, Street 132",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catagory": "Mobile",
+      "sub-catagories": [
+        {
+          "sub-catagory": "IOS",
+          "items": [
+            {
+              "item": "iPhone 10",
+              "item_details": [
+                {
+                  "item_id": "ID_009",
+                  "brand": "Apple",
+                  "price": "$170",
+                  "screen-size": "7 inch",
+                  "ram": "8 GB",
+                  "memory": "128 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 010",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_010",
+                  "brand": "Apple",
+                  "price": "$140",
+                  "screen-size": "7 inch",
+                  "ram": "6 GB",
+                  "memory": "64 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 011",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            },
+            {
+              "item": "iPhone 11",
+              "item_details": [
+                {
+                  "item_id": "ID_011",
+                  "brand": "Apple",
+                  "price": "$190",
+                  "screen-size": "7.7 inch",
+                  "ram": "8 GB",
+                  "memory": "128 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 011",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_012",
+                  "brand": "Apple",
+                  "price": "$170",
+                  "screen-size": "7.7 inch",
+                  "ram": "6 GB",
+                  "memory": "64 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 012",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sub-catagory": "Android",
+          "items": [
+            {
+              "item": "Samsung S11",
+              "item_details": [
+                {
+                  "item_id": "ID_013",
+                  "brand": "Samsung",
+                  "price": "$160",
+                  "screen-size": "7.7 inch",
+                  "ram": "8 GB",
+                  "memory": "128 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 011",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_014",
+                  "brand": "Samsung",
+                  "price": "$120",
+                  "screen-size": "7.7 inch",
+                  "ram": "6 GB",
+                  "memory": "64 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 012",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            },
+            {
+              "item": "One Plus 8",
+              "item_details": [
+                {
+                  "item_id": "ID_015",
+                  "brand": "One Plus",
+                  "price": "$140",
+                  "screen-size": "7.7 inch",
+                  "ram": "8 GB",
+                  "memory": "128 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 011",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                },
+                {
+                  "item_id": "ID_016",
+                  "brand": "One Plus",
+                  "price": "$110",
+                  "screen-size": "7.7 inch",
+                  "ram": "6 GB",
+                  "memory": "64 GB",
+                  "color": "black",
+                  "delivery_date": "21-May-2021",
+                  "seller": "Seller 012",
+                  "address": {
+                    "address1": "Lane 21, Street 125",
+                    "address2": "India",
+                    "address3": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

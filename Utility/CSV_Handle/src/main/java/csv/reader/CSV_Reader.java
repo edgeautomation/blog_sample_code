@@ -19,7 +19,8 @@ public class CSV_Reader {
     private String PATH;
     private List<Map<String,String>> filter;
 
-    public CSV_Reader given() {
+    public CSV_Reader given(String path) {
+        this.PATH = path;
         readCSV();
         return this;
     }
@@ -71,7 +72,7 @@ public class CSV_Reader {
     private void readCSV() {
 
         List<Map<String,String>> inputLst = new CopyOnWriteArrayList<>();
-        List<Map<String,Integer>> headerLst = new CopyOnWriteArrayList<>();
+        //List<Map<String,Integer>> headerLst = new CopyOnWriteArrayList<>();
 
         CSVFormat format = CSVFormat.DEFAULT.withHeader();
 
@@ -80,7 +81,7 @@ public class CSV_Reader {
 
             List<CSVRecord> csvRecords = dataParser.getRecords();
             Map<String,Integer> headerMap = dataParser.getHeaderMap();
-            headerLst.add(headerMap);
+            //headerLst.add(headerMap);
 
             csvRecords.forEach(rc -> {
                 Map<String,String> inputMap = new LinkedHashMap<>();
@@ -104,10 +105,6 @@ public class CSV_Reader {
             }
         }
         filter = inputLst;
-    }
-
-    public void setPATH(String PATH) {
-        this.PATH = PATH;
     }
 
     public List<String> getFilteredHeaderValue(List<Map<String,String>> data, String header) {

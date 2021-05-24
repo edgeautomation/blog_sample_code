@@ -1,0 +1,8 @@
+<suite name="Download and Setup Browser">
+    <test name="Download and Setup Browser">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="navigation_test.NavigationTest"/>
+        </classes>
+    </test>
+</suite>
