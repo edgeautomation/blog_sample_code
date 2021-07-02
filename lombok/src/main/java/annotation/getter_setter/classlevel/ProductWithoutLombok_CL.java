@@ -1,6 +1,6 @@
 package annotation.getter_setter.classlevel;
 
-public class ProductWithoutLombok_Conf {
+public class ProductWithoutLombok_CL {
 
     private String name;
     private int price;

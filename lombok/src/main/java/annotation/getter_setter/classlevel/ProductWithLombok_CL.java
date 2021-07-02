@@ -6,8 +6,7 @@ import lombok.experimental.Accessors;
 
 @Getter
 @Setter
-@Accessors(fluent = true,chain = true)
-public class ProductWithLombok_Conf {
+public class ProductWithLombok_CL {
     private String name;
     private int price;
     private String manufacture_date;
